@@ -1,0 +1,126 @@
+{
+  "title": "Event Registration Form",
+  "description": "Register for our upcoming event. Please fill out all required fields.",
+  "fields": [
+    {
+      "id": "field_1703123456789_abc123",
+      "type": "text",
+      "label": "Full Name",
+      "required": true,
+      "placeholder": "Enter your full name",
+      "description": "Please enter your first and last name",
+      "validation": {
+        "minLength": 2,
+        "maxLength": 50
+      },
+      "conditional": null
+    },
+    {
+      "id": "field_1703123456790_def456",
+      "type": "email",
+      "label": "Email Address",
+      "required": true,
+      "placeholder": "Enter your email address",
+      "description": "We'll send you event details to this email",
+      "validation": {
+        "email": true
+      },
+      "conditional": null
+    },
+    {
+      "id": "field_1703123456791_ghi789",
+      "type": "phone",
+      "label": "Phone Number",
+      "required": false,
+      "placeholder": "Enter your phone number",
+      "description": "Optional - for emergency contact",
+      "validation": {},
+      "conditional": null
+    },
+    {
+      "id": "field_1703123456792_jkl012",
+      "type": "select",
+      "label": "Event Type",
+      "required": true,
+      "placeholder": "",
+      "description": "Select the type of event you want to attend",
+      "validation": {},
+      "conditional": null,
+      "options": [
+        "Workshop",
+        "Conference",
+        "Networking Event",
+        "Training Session"
+      ]
+    },
+    {
+      "id": "field_1703123456793_mno345",
+      "type": "radio",
+      "label": "Experience Level",
+      "required": true,
+      "placeholder": "",
+      "description": "Help us tailor the content to your experience",
+      "validation": {},
+      "conditional": null,
+      "options": [
+        "Beginner",
+        "Intermediate",
+        "Advanced",
+        "Expert"
+      ]
+    },
+    {
+      "id": "field_1703123456794_pqr678",
+      "type": "checkbox",
+      "label": "Interests",
+      "required": false,
+      "placeholder": "",
+      "description": "Select all topics that interest you",
+      "validation": {},
+      "conditional": null,
+      "options": [
+        "Technology",
+        "Business",
+        "Marketing",
+        "Design",
+        "Development",
+        "Leadership"
+      ]
+    },
+    {
+      "id": "field_1703123456795_stu901",
+      "type": "number",
+      "label": "Years of Experience",
+      "required": false,
+      "placeholder": "Enter number of years",
+      "description": "How many years of experience do you have?",
+      "validation": {
+        "min": 0,
+        "max": 50
+      },
+      "conditional": null
+    },
+    {
+      "id": "field_1703123456796_vwx234",
+      "type": "textarea",
+      "label": "Additional Comments",
+      "required": false,
+      "placeholder": "Any additional information or special requirements?",
+      "description": "Let us know if you have any special requirements or questions",
+      "validation": {
+        "maxLength": 500
+      },
+      "conditional": null
+    }
+  ],
+  "successMessage": "Thank you for registering! We'll send you event details soon.",
+  "submitButtonText": "Register for Event",
+  "showProgress": true,
+  "enableSheets": false,
+  "googleSheetsUrl": "",
+  "sheetName": "Event Registrations",
+  "emailNotifications": false,
+  "notificationEmail": "",
+  "primaryColor": "#3b82f6",
+  "formWidth": "max-w-2xl"
+} 
